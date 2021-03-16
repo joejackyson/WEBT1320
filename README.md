@@ -7,5 +7,4 @@
     <li><a href="lab3/index.html">Lab3 - Basic HTML and HTML Semantics</a></li>
     <li><a href="lab4/index.html">Lab4 - Intro to CSS</a></li>
     <li><a href="midterm/index.html">Mid-Term - Valheim Website</a></li>
-    <li><a href="midtermdemo/index.html">Midterm demo</a></li>
 </ul>
