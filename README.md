@@ -8,4 +8,5 @@
     <li><a href="lab4/index.html">Lab4 - Intro to CSS</a></li>
     <li><a href="midterm/index.html">Mid-Term - Valheim Website</a></li>
     <li><a href="lab5/index.html">Lab5 - Mobile View</a></li>
+    <li><a href="lab6/index.html">Lab6 - Desktop and Tablet View</a></li>
 </ul>

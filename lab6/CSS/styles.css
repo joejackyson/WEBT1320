@@ -1,0 +1,151 @@
+/* Global Styles */
+
+body {
+    background-color:dimgray;
+}
+img {
+    max-width:100%;
+}
+a {
+    color: rgb(11, 10, 37);
+}
+a:hover {
+    color:lightslategray;
+    text-decoration: none;
+}
+.mainimg {
+    width: 100%;
+}
+.screenshot{
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+/* Mobile Styles */
+
+header {
+    background-color: rgb(43, 43, 43);
+    padding: 40px 0;
+    text-align: center;
+    color:#8C4E18;
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.5em;
+    background-image: url(../images/tf2_emblem.png);
+    background-size: 225px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header img{
+    max-width: 30%;
+}
+nav {
+    background-color: rgb(43, 43, 43);
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+nav ul{
+    padding: 0;
+    list-style-type: none;
+}
+nav li {
+    display:block;
+}
+nav li a{
+    display:block;
+    padding:10px 0;
+    border-top: 1px solid black;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #912F2E;
+}
+
+nav ul a:hover{
+    background-color:red;
+}
+main {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin: 10px;
+}
+/* Tablet View */
+@media only screen and (min-width: 768px) {
+    header{
+        padding:70px 0;
+    }
+    header h1{
+        font-size: 3em;
+    }
+    nav li{
+        display: inline-block;
+    }
+    nav li a{
+        padding: 10px 40px;
+    }
+    main{
+        display: flex;
+    }
+    ul{
+        list-style-type: disc;
+    }
+    section, aside{
+        border: 1px solid black;
+        padding: 20px;
+        margin: 10px;
+    }
+    section{
+        width:70%;
+    }
+    aside{
+        width:30%;
+    }
+}
+/* Desktop View */
+@media only screen and (min-width: 1024px) {
+    header{
+        background-image: url('../images/tf2_desktopheader.jfif');
+        background-size:900px;
+        background-color: #1C1C1C;
+        font-size: 3em;
+    }
+    body{
+        background-color: #7A7A7A;
+    }
+    nav {
+        background-color: #1C1C1C;
+    }
+    nav li a{
+        font-size: 25px;
+        padding: 10px 75px;
+        border-radius: 20px 20px 0 0;
+    }
+    #container{
+        width: 80%;
+        margin: 20px auto;
+        border: 4px solid black;
+    }
+    .active{
+        background-color: red; 
+    }
+    section h2{
+        text-align: center;
+    }
+    main img{
+        width: 75%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    main h3{
+        text-align: center;
+    }
+}
