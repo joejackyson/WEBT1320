@@ -1,0 +1,102 @@
+body {
+    background-color: black;
+}
+video {
+    max-width: 100%;
+}
+header{
+    background-color: white;
+    height: 200px;
+}
+header h1{
+    text-align: center;
+    font-size: 2.5em;
+    padding: 70px;
+}
+footer{
+    background-color: white;
+    padding: 10px 0;
+    margin: 5px 0;
+    text-align: center;
+}
+nav{
+    background-color: white;
+    padding: 1px 0;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav li{
+    display: block;
+    margin: 10px;
+}
+nav li a{
+    display: block;
+    background-color: black;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+nav li a:hover {
+    background-color: rgb(53, 51, 51);
+}
+section {
+    background-color: white;
+    padding: 10px;
+    margin: 5px 0;
+}
+section h2, section h3{
+    text-align: center;
+}
+#audio{
+    text-align: center;
+}
+table   {
+    width: 100%;
+    border: 2px solid black;
+}
+tr, th, td {
+    border: 2px solid black;
+    text-align: center;
+}
+iframe{
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+p {
+    text-align: center;
+}
+/* Tablet View */
+@media only screen and (min-width: 768px) {
+    nav{
+        padding: 5px 0;
+    }
+    nav li{
+        display: inline-block;
+    }
+    nav li a {
+        width: 150px;
+    }
+    video {
+        display: block;
+        margin: auto;
+    }
+    iframe{
+        height: 400px;
+        display: block;
+        margin: auto;
+    }
+}
+/* Desktop View */
+@media only screen and (min-width: 1024px) {
+    iframe{
+        height: 700px;
+    }
+    header h1{
+        font-size: 3em;
+    }
+}
