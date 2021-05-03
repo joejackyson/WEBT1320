@@ -10,4 +10,5 @@
     <li><a href="lab5/index.html">Lab5 - Mobile View</a></li>
     <li><a href="lab6/index.html">Lab6 - Desktop and Tablet View</a></li>
     <li><a href="lab7/index.html">Lab7 - Audio, Video, and Tables</a></li>
+    <li><a href="final/index.html">Final - About Me</a></li>
 </ul>
