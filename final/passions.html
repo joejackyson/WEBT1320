@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe Reeves Final</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="js/dist/slicknav.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/dist/jquery.slicknav.min.js"></script>
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+        });
+    </script>
+</head>
+<body>
+    <div id="container">
+    <header>
+        <h1>Joe Reeves</h1>
+    </header>
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html">Main</a></li>
+            <li><a class="active" href="passions.html">Passions</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+           <h2>Gaming</h2> 
+           <img src="images/tf2img.jpg" alt="Team Fortress 2">
+           <p>Playing video games is one of my favorite things to do in my freetime. Of the games I play, a select few stand out as my favorites of all team. In particular, Team Fortress 2 is probably my favorite. I started playing in 2012, when my cousin introduced me to the game. Ever since then, it has become my most played game. I even competed in competitive leagues.</p>
+           <h3>TF2 UGC Match Stats</h3>
+           <table>
+            <tr>
+                <th>Match Result</th>
+                <th>Class</th>
+                <th>Kills</th>
+                <th>Assists</th>
+                <th>Deaths</th>
+            </tr>
+            <tr>
+                <td>Draw 4-4</td>
+                <td>Scout</td>
+                <td>19</td>
+                <td>10</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>Loss 1-4</td>
+                <td>Scout</td>
+                <td>21</td>
+                <td>7</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Win 4-0</td>
+                <td>Scout</td>
+                <td>18</td>
+                <td>8</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Loss 1-3</td>
+                <td>Scout</td>
+                <td>37</td>
+                <td>6</td>
+                <td>24</td>
+            </tr>
+        </table>
+           <h3>Other Games</h3>
+           <p>The game that stands out almost as much as TF2 is Fallout. Fallout is very unique, set in a post=apocalyptic, alternate version of reality. After playing Fallout: New Vegas in 2013, I was hooked on the series and always looking for more.</p>
+        </section>
+        <section>
+            <h2>Soccer</h2>
+            <img src="images/jrsoccer.jpg" alt="Soccer">
+            <p>I started playing soccer in my freshman year of highschool. Before I was confident trying out for the highschool team, I played a season of indoor soccer with a lot of my friends from class. Our team did very well, and we had a lot of fun doing so. This experience in particular grew my love for soccer. After that playing indoor, I tried out for the highschool team and quickly became a second string player. As of my sophomore year, I was already on the starting team. This inspired me to try and become one of the most impactful players on the team. I went on to play soccer in a select division, and this helped me grow further. </p>
+        </section>
+        <section>
+            <h2>Music</h2>
+            <p id="par">Some of my favorite songs</p>
+            <h3>Interpol - Evil</h3>
+            <audio src="audio/evil.mp3" controls></audio>
+            <h3>King Crimson - 21st Century Schizoid Man</h3>
+            <audio src="audio/schizoid.mp3" controls></audio>
+            <h3>Joy Division - Shadowplay</h3>
+            <audio src="audio/shadowplay.mp3" controls></audio>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;Joe Reeves 2021 Final</p>
+    </footer>
+</div>
+</body>
+</html>
